@@ -1,9 +1,9 @@
 pipeline {
     agent { label 'master' }
-    tools {
+    /*tools {
         maven 'Maven 3.3.9'
         jdk 'jdk1.8.0'
-    }
+    }*/
     stages {
         stage('Build') {
             parallel {
